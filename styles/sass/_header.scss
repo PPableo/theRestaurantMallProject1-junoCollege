@@ -1,0 +1,22 @@
+header .homePage {
+    background: url(../../../assets/home-header.jpg);
+    height: 800px;
+    background-size: cover;
+    position: relative;
+}
+
+header .blogPage {
+    background: url(../../assets/blog-header.jpg);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -100;
+}
+
+header .contactPage {
+    background: url(../../assets/contact-header.jpg);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
