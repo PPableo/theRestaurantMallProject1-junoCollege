@@ -235,10 +235,16 @@ header .homePage {
 
 header .blogPage {
   background: url(../../assets/blog-header.jpg);
-  height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: -100;
+  min-height: 50vh;
+}
+
+header .menuPage {
+  background: url(../../assets/blog-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 50vh;
 }
 
 header .contactPage {
@@ -747,6 +753,35 @@ form button {
   border: 0px;
 }
 
+.menuShowcase.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.menuShowcase {
+  margin: 0;
+}
+
+.carouselContainer {
+  width: 60%;
+  overflow: hidden;
+}
+
+.carouselImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 540px;
+  padding-right: 5rem;
+  overflow: hidden;
+}
+
 ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -840,56 +875,7 @@ form button {
 }
 @media (max-width: 800px) {
   /* all of our styles for TABLET devices will go within this breakpoint */
-  header {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  body {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  body img {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  body footer {
-    width: 90%;
-  }
-  section {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
 }
 @media (max-width: 500px) {
   /* all of our styles for MOBILE devices will go within this breakpoint */
-  .navBar .wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .categoryGallery .items {
-    width: 100%;
-  }
-  header .headerContent, header .headerImgContainer {
-    width: 100%;
-  }
-  h3 {
-    font-size: 1.3rem;
-    line-height: 2rem;
-  }
 }

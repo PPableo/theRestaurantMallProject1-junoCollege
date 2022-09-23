@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+    <header>
+        <div class="menuPage">
+            <nav class="upperNav wrapper">
+                <ul>
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="./blog.html">blog</a></li>
+                    <li><a href="./menuSlider.html">menu</a></li>
+                    <li><a href="./contact.html">contact</a></li>
+                </ul>
+            </nav>
+            <h1 class="wrapper">Menu</h1>
+        </div>
+    </header>
+    <!-- WRAPPER TO CONTAIN and have fixed width of contents -->
+        <section class="menuShowcase wrapper">
+            <!-- created a div container, and div for actual image to help manipulate position -->
+            <div class="carouselContainer">
+                <div class="carouselImg">
+                    <img src="./assets/carasoul1.webp" alt="Photo of Menu Item - Salmon Salad">
+                    <img src="./assets/right-image.jpg"" alt="Photo of Menu Item - Salmon Salad">
+                    <img src="./assets/blog-side-image.jpg" alt="Photo of Menu Item - Salmon Salad">
+                    <img src="./assets/" alt="Photo of Menu Item - Salmon Salad">
+                </div>
+            </div>
+            
+                <!-- since we're planning to create a button under the image we place it within the div and hopefully use z-index to keep image back and button forward -->
+                <!-- <div class="btnContainer">
+                    <button class="prev">
+                        <img src="./assets/icon-prev.svg" alt="">
+                    </button>
+                    <button class="next">
+                        <img src="./assets/icon-next.svg" alt="">
+                    </button>
+                </div> -->
+            <!-- within the wrapper we created container and content card to be able to flex items and create a column of items for placement -->
+            
+            <div class="contentCard">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor nemo excepturi aliquam nobis dolores sequi, nisi consequatur laboriosam, officiis sint quos ad est quas autem odit libero alias tenetur, aspernatur ratione corporis! Ut a, ipsam impedit sit inventore provident quas at. Rem repudiandae cupiditate ipsa itaque placeat at hic!</p>
+                <div class="userCard">
+                    <p class="foodName">Salmon Crusted Salad</p>
+                    <p class="price">20</p>
+                </div>
+                <div class="btnContainer">
+                    <button class="prev">
+                        <img src="./assets/icon-prev.svg" alt="">
+                    </button>
+                    <button class="next">
+                        <img src="./assets/icon-next.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>Copyright © 2022 Juno College</p>
+        </footer>
+        <script src="./apps.js"></script>
+</body>
+</html>

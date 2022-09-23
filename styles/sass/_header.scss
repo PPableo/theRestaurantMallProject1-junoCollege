@@ -7,10 +7,18 @@ header .homePage {
 
 header .blogPage {
     background: url(../../assets/blog-header.jpg);
-    height: 800px;
+    // height: 800px;
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: -100;
+    min-height: 50vh;
+}
+
+header .menuPage {
+    background: url(../../assets/blog-header.jpg);
+    // height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
 }
 
 header .contactPage {
