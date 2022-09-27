@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+    <header>
+        <div class="reviewPage">
+            <nav class="upperNav wrapper">
+                <ul>
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="./blog.html">blog</a></li>
+                    <li><a href="./ratingPage.html">reviews</a></li>
+                    <li><a href="./contact.html">contact</a></li>
+                </ul>
+            </nav>
+            <h1 class="wrapper">Reviews</h1>
+        </div>
+    </header>
+    <section class="reviewSection active">
+        <div class="reviewContainer wrapper">
+            <div class="initialView">
+                <div class="imageContainer star">
+                    <img src="./assets/icon-star.svg" alt="picture of a star">
+                </div>
+                    <h2>How did we do?</h2>
+                    <p>Please let us know how we did today. All Feedback is appreciated to help us improve our offering!</p>
+                    <div class="ratingContainer">
+                        <ul>
+                            <li class="ratingCircle">1</li>
+                            <li class="ratingCircle">2</li>
+                            <li class="ratingCircle">3</li>
+                            <li class="ratingCircle">4</li>
+                            <li class="ratingCircle">5</li>
+                        </ul>
+                    </div>
+                    <button class="submit">Submit</button>
+            </div>
+            <div class="submittedView hidden">
+                    <div class="imageContainer thankYou">
+                        <img class="reviewFeedback" src="./assets/illustration-thank-you.svg" alt="thankyou" />
+                    </div>
+                <p>You selected <span class="rating">0</span> out of 5</p>
+        
+                <h2>Thank you!</h2>
+    
+                <h3>
+                  We appreciate you taking the time to give a rating. If you ever
+                  need more support, don’t hesitate to get in touch!
+                </h3>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright © 2022 Juno College</p>
+    </footer>
+    <script src="./apps.js"></script>
+</body>
+</html>

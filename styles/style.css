@@ -249,6 +249,13 @@ header .contactPage {
   background-repeat: no-repeat;
 }
 
+header .reviewPage {
+  background: url(../../assets/blog-header.jpg);
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 footer {
   background: #0F0F0F;
   color: #FFFFFF;
@@ -835,61 +842,121 @@ form button {
   margin-right: 30rem;
 }
 
+.reviewSection {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.reviewContainer {
+  width: 500px;
+  height: calc(100vh - 400px);
+  margin: 40px auto;
+  margin-bottom: 0;
+  font-size: 15px;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 25px;
+  padding-left: 38px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #171B0E;
+}
+
+.imageContainer.star {
+  border-radius: 50%;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20px;
+  height: 20px;
+  background-color: #FFD300;
+  margin: 10px 0;
+}
+
+.ratingCircle {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FFD300;
+  color: #FFFFFF;
+  margin-right: 25px;
+}
+
+.ratingCircle:hover {
+  background-color: orange;
+}
+
+.submit {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #2B331B;
+  width: 95%;
+  height: 47px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.submit:hover {
+  background-color: orange;
+  color: #FFFFFF;
+}
+
+.hidden {
+  display: none;
+}
+
+.reviewSection.hidden {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.reviewFeedback {
+  width: 50%;
+  margin: 0 auto;
+}
+
 @media (max-width: 1000px) {
   /* all of our styles for smaller DESKTOP devices will go within this breakpoint */
 }
 @media (max-width: 800px) {
   /* all of our styles for TABLET devices will go within this breakpoint */
-  header {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  body {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  body img {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  body footer {
-    width: 90%;
-  }
-  section {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
 }
 @media (max-width: 500px) {
   /* all of our styles for MOBILE devices will go within this breakpoint */
-  .navBar .wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .categoryGallery .items {
-    width: 100%;
-  }
-  header .headerContent, header .headerImgContainer {
-    width: 100%;
-  }
-  h3 {
-    font-size: 1.3rem;
-    line-height: 2rem;
-  }
 }
