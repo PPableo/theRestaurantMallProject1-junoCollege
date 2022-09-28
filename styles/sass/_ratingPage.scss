@@ -9,18 +9,6 @@
     margin-bottom: 0;
 }
 
-// .reviewContainer {
-//     width: 50%;
-//     height: calc(50vh - 80px);
-//     margin: 40px auto;
-//     margin-bottom: 0;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: left;
-//     background-color: $almostBlack;
-// }
-
 .reviewContainer {
     width: 500px;
     height: calc(100vh - 400px);
@@ -34,6 +22,7 @@
     padding-left: 38px;
     justify-content: center;
     background-color: $almostBlack;
+    box-shadow: 2.1rem 2.1rem #FFD300;
 }
 
 .imageContainer.star {
@@ -68,7 +57,6 @@
     margin-top: 30px;
     padding: 10px;
     background-color: $pine;
-    // background-color: orange;
     width: 95%;
     height: 47px;
     color: $whiteR;
@@ -87,56 +75,26 @@
 .hidden {
     display: none;
   }
-
-// .orange-background {
-//     background-color: orange;
-// }
-
-.reviewSection.hidden {
+ 
+.reviewFeedback {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .reviewFeedback {
     width: 50%;
     margin: 0 auto;
-  }
+}
 
+.submittedView P {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: orange;
+}
 
-// .submittedView {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-// }
+.submittedView h2 {
+    display: flex;
+    justify-content: center;
+}
 
-// .submittedView p {
-// margin: 0 auto;
-// margin-top: 30px;
-// padding: 8px 0;
-// background-color: gray;
-// max-width: 60%;
-// height: 20px;
-// color: orange;
-// border: none;
-// border-radius: 25px;
-// font-size: 14px;
-//   }
-  
-//   .submittedView h2 {
-//     color: var(--white-color);
-//     text-align: center;
-//     font-weight: 400;
-//     letter-spacing: 1px;
-//     font-size: 27px;
-//     margin-top: 35px;
-//   }
-  
-//   .submittedView h3 {
-//     width: 90%;
-//     margin-top: 2px;
-//     font-size: 15px;
-//     color: var(--lightgrey-color);
-//     line-height: 1.5;
-//   }
+.rating {
+    padding-left: 5px;
+    padding-right: 5px;
+}
