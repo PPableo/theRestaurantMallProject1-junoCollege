@@ -235,10 +235,16 @@ header .homePage {
 
 header .blogPage {
   background: url(../../assets/blog-header.jpg);
-  height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: -100;
+  min-height: 50vh;
+}
+
+header .reviewPage {
+  background: url(../../assets/blog-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 50vh;
 }
 
 header .contactPage {
@@ -246,13 +252,6 @@ header .contactPage {
   height: 800px;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-}
-
-header .reviewPage {
-  background: url(../../assets/blog-header.jpg);
-  height: 800px;
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -849,9 +848,7 @@ form button {
 
 .reviewContainer {
   width: 500px;
-  height: calc(100vh - 400px);
   margin: 40px auto;
-  margin-bottom: 0;
   font-size: 15px;
   border-radius: 25px;
   display: -webkit-box;
