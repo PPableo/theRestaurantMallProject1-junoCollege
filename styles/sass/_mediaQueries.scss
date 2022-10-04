@@ -6,9 +6,20 @@
 @use "./blogPage";
 @use "./contactPage";
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 980px) {
+    // "screen and" for use incase of legacy browsers 
     /* all of our styles for smaller DESKTOP devices will go within this breakpoint */
     // Not going to do anything with this right now 
+    .infoCards ul {
+        flex-direction: column;
+        
+        li {
+            margin-bottom: 4rem;
+            list-style: none;
+            width: 100%;
+        }
+    }
+    
 }
 
 @media (max-width: 800px) {
