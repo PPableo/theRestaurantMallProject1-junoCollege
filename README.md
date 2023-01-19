@@ -13,27 +13,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/PPableo/
-theRestaurantMallProject1-junoCollege">
+  <a href="https://github.com/PPableo/theRestaurantMallProject1-junoCollege">
     <img src="images/logo.png" alt="Logo" width="250" height="150">
   </a>
 
-<h3 align="center">The Restaurant Mall - PSD CONVERSION</h3>
+<h3 align="center">Trivia Time Quiz App</h3>
 
   <p align="center">
 The Restaurant Mall is a artificial website that simulates a multi-page, responsive and accessible website for a restaurant. It was created as a PSD conversion using HTML, CSS, and JS, and was built in accordance with a client brief and design files. The website includes features such as a blog, about page, and contact page, as well as the ability for users to leave reviews with a 5-star rating. It has been designed to be easy to use on both desktop and mobile devices, with accessibility considerations included
     <br />
-    <a href="https://github.com/PPableo/
-theRestaurantMallProject1-junoCollege"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/PPableo/theRestaurantMallProject1-junoCollege"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://paulpableo.com/">View Demo</a>
+    <a href="https://meeseeks-trivia.netlify.app/">View Demo</a>
     ·
-    <a href="https://github.com/PPableo/
-theRestaurantMallProject1-junoCollege/issues">Report Bug</a>
+    <a href="https://github.com/PPableo/theRestaurantMallProject1-junoCollege/issues">Report Bug</a>
     ·
-    <a href="https://github.com/PPableo/
-theRestaurantMallProject1-junoCollege/issues">Request Feature</a>
+    <a href="https://github.com/PPableo/theRestaurantMallProject1-junoCollege/issues">Request Feature</a>
   </p>
 </div>
 
@@ -59,12 +55,11 @@ theRestaurantMallProject1-junoCollege/issues">Request Feature</a>
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://paulpableo.com/)
+[![Product Name Screen Shot][product-screenshot]](https://meeseeks-trivia.netlify.app/)
 
 ### Built With
 
 * [![HTML5][HTML5.js]][HTML-url]
-* [![SASS][SASS.js]][SASS-url]
 * [![JavaScript][JavaScript.js]][JavaScript-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -72,21 +67,18 @@ theRestaurantMallProject1-junoCollege/issues">Request Feature</a>
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Personal Portfolio - A responsive portfolio coded from scratch to match your chosen design that showcased our learning
- 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Restaurant Website Mock up - Practicing HTML and CSS Basics
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Fix Contact Page
-  - [ ] Form
-- [ ] Fix Spacing
+- [ ] Re-visit and Make it Better
+- [ ] MediaQueries
+- [ ] New Features
 
-See the [open issues](https://github.com/PPableo/
-theRestaurantMallProject1-junoCollege/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/PPableo/theRestaurantMallProject1-junoCollege/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,9 +87,7 @@ theRestaurantMallProject1-junoCollege/issues) for a full list of proposed featur
 
 https://paulpableo.com/
 
-Project Link: [https://github.com/PPableo/
-theRestaurantMallProject1-junoCollege](https://github.com/PPableo/
-theRestaurantMallProject1-junoCollege)
+Project Link: [https://github.com/PPableo/theRestaurantMallProject1-junoCollege](https://github.com/PPableo/theRestaurantMallProject1-junoCollege)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,7 +96,7 @@ theRestaurantMallProject1-junoCollege)
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Codegrid](https://github.com/codegridweb)
+* [Juno College](https://junocollege.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,14 +104,10 @@ theRestaurantMallProject1-junoCollege)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/
-theRestaurantMallProject1-junoCollege.svg?style=for-the-badge
-[contributors-url]: https://github.com/PPableo/
-theRestaurantMallProject1-junoCollege/graphs/contributors
-[issues-shield]: https://img.shields.io/github/issues/PPableo/
-theRestaurantMallProject1-junoCollege.svg?style=for-the-badge
-[issues-url]: https://github.com/PPableo/
-theRestaurantMallProject1-junoCollege/issues
+[contributors-shield]: https://img.shields.io/github/contributors/PPableo/theRestaurantMallProject1-junoCollege.svg?style=for-the-badge
+[contributors-url]: https://github.com/PPableo/theRestaurantMallProject1-junoCollege/graphs/contributors
+[issues-shield]: https://img.shields.io/github/issues/PPableo/theRestaurantMallProject1-junoCollege.svg?style=for-the-badge
+[issues-url]: https://github.com/PPableo/theRestaurantMallProject1-junoCollege/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/paulpableo
 [product-screenshot]: images/screenshot.png
@@ -129,5 +115,3 @@ theRestaurantMallProject1-junoCollege/issues
 [HTML-url]: https://developer.mozilla.org/en-US/docs/Glossary/HTML5/
 [JavaScript.js]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white
 [JavaScript-url]: https://www.javascript.com/
-[SASS.js]: https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=SASS&logoColor=white
-[SASS-url]: https://sass-lang.com/
