@@ -25,7 +25,7 @@ The Restaurant Mall is a artificial website that simulates a multi-page, respons
     <a href="https://github.com/PPableo/theRestaurantMallProject1-junoCollege"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://meeseeks-trivia.netlify.app/">View Demo</a>
+    <a href="https://production--funny-dango-787cac.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/PPableo/theRestaurantMallProject1-junoCollege/issues">Report Bug</a>
     ·
@@ -55,7 +55,7 @@ The Restaurant Mall is a artificial website that simulates a multi-page, respons
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://meeseeks-trivia.netlify.app/)
+[![Product Name Screen Shot][product-screenshot]](https://production--funny-dango-787cac.netlify.app/)
 
 ### Built With
 
