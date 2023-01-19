@@ -17,7 +17,7 @@
     <img src="images/logo.png" alt="Logo" width="250" height="150">
   </a>
 
-<h3 align="center">Trivia Time Quiz App</h3>
+<h3 align="center">The Restaurant Mall - PSD Conversion</h3>
 
   <p align="center">
 The Restaurant Mall is a artificial website that simulates a multi-page, responsive and accessible website for a restaurant. It was created as a PSD conversion using HTML, CSS, and JS, and was built in accordance with a client brief and design files. The website includes features such as a blog, about page, and contact page, as well as the ability for users to leave reviews with a 5-star rating. It has been designed to be easy to use on both desktop and mobile devices, with accessibility considerations included
