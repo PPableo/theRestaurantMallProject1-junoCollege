@@ -1,150 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Head starts -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Restaurant Mall - Home</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <title>Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/8f523b1737.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+</head> <!-- Head ends -->
+<!-- Body starts -->
 <body>
-    <header>
-        <div class="homePage">
-            <nav class="upperNav wrapper">
+    <!-- Header starts -->
+    <header class="homepage">
+        <div class="menuBar">
+            <div class="buttonContainer">
+                <button class="closeButton"><i class="fa-solid fa-x fa-2x"></i></button>
+            </div>
+            <nav>
                 <ul>
-                    <li class="homeLine"><a href="./index.html">home</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="./blog.html">blog</a></li>
-                    <li><a href="">contact</a></li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </nav>
-            <h1 class="wrapper">
-                <p>the</p>
-                <span>restaurant</span>
-                <p>mall</p>
-            </h1>
-            <div class="imageContainer1">
-                <img src="./assets/home-box-header.png" alt="onions and salad">
-            </div>
-                </header>
         </div>
-    <main>
-<!-- SECTION 1 INFORMATION SHOWCASE -->
-        <section> 
-            <div class="infoCards wrapper">
+        <div class="wrapper">
+            <nav class="navBar">
                 <ul>
-                    <li>
-                        <div class="iconHolder">
-                            <img src="./assets/pindropicon.svg" alt="pin drop symbol">
-                        </div>
-                        <div class="contentCard">
-                            <h2>Location</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo minima non, asperiores laudantium, mollitia quas, commodi inventore dicta consequuntur eos a beatae atque labore nemo.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="iconHolder">
-                            <img src="./assets/communityIcon.svg" alt="community symbol">
-                        </div>
-                        <div class="contentCard">
-                            <h2>Community</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo minima non, asperiores laudantium, mollitia quas, commodi inventore dicta consequuntur eos a beatae atque labore nemo.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="iconHolder">
-                            <img src="./assets/blogIcon.svg" alt="blog symbol">
-                        </div>
-                        <div class="contentCard">
-                            <h2>Blog</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo minima non, asperiores laudantium, mollitia quas, commodi inventore dicta consequuntur eos a beatae atque labore nemo.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="iconHolder">
-                            <img src="./assets/phoneIcon.svg" alt="phone symbol">
-                        </div>
-                        <div class="contentCard">
-                            <h2>Get In Touch</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo minima non, asperiores laudantium, mollitia quas, commodi inventore dicta consequuntur eos a beatae atque labore nemo.</p>
-                        </div>
-                    </li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>
-            </div>
+            </nav>
+            <button class="menuBarButton"><i class="fa-solid fa-bars fa-2x"></i></button>
+            <h1 class="removeSpace">The <span class="highlight">Restaurant</span> Mall</h1>
+        </div> 
+        <div class="headerImg">
+            <img src="./assets/home-box-header.png" alt="Fried squid ring with vegetables is on the table in the restaurant">
+        </div>
+    </header> <!-- Header ends -->
+    <!-- Main starts -->
+    <main class="homeMain">
+
+        <section class="section1">
+            <ul class="wrapper">
+                <li>
+                    <div class="icon">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="section1Content">
+                        <h2>Location</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, minima pariatur? Atque exercitationem adipisci doloremque.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="icon">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <div class="section1Content">
+                        <h2>Community</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, minima pariatur? Atque exercitationem adipisci doloremque.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="icon">
+                        <i class="fa-solid fa-file"></i>
+                    </div>
+                    <div class="section1Content">
+                        <h2>Blog</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, minima pariatur? Atque exercitationem adipisci doloremque.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="icon">
+                        <i class="fa-solid fa-phone-flip"></i>
+                    </div>
+                    <div class="section1Content">
+                        <h2>Get in Touch</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, minima pariatur? Atque exercitationem adipisci doloremque.</p>
+                    </div>
+                </li>
+            </ul> 
         </section>
-<!--SECTION 1 END  -->
-<!-- SECTION 2 FOOD SHOWCASE -->
-        <section class="bestAndNew"> 
-            <div class="foodMenuBurger">
-                <div class="bestBurgersImg">
-                    <img src="./assets/left-image.jpg" alt="burger and fries">
+
+        <section class="section2">
+            <div class="whole2Section">
+                <div class="section2Img">
+                    <figure class="imageFormat burger">
+                        <img src="./assets/left-image.jpg" alt="Hamburger with fries">
+                    </figure>
                 </div>
-                <div class="bestBurgersContent">
-                    <h2>best burgers</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae eligendi, eos tempora ea minus minima. Esse voluptatibus eius sunt fugit. Veritatis vel eos ratione officiis veniam accusantium suscipit corrupti est, itaque maiores possimus iste nam tempora voluptatibus voluptatem maxime exercitationem ipsum voluptates amet officia. Tenetur deserunt veritatis alias assumenda officiis.</p>
-                    <a class="readMore" href="#">read more</a>
+                <div class="section2Content">
+                    <div class="contentSize">
+                        <h2>Best Burgers</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum et consequatur fuga, reprehenderit voluptas non delectus saepe libero nemo quis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        </p>
+                        <a href="#" class="buttonFirst">Read More</a>
+                    </div>
                 </div>
-            </div>
-            <div class="foodMenuSalad">
-                <div class="somethingNewImg">
-                    <img src="./assets/right-image.jpg" alt="guacamole salad">
+                <div class="section2Content section2ContentRight">
+                    <div class="contentSize">
+                        <h2>Try Something New</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum et consequatur fuga, reprehenderit voluptas non delectus saepe libero nemo quis. Lorem ipsum dolor sit amet consectetur. 
+                        </p>
+                        <a href="#" class="buttonFirst">Read More</a>
+                    </div>
                 </div>
-                <div class="somethingNewContent">
-                    <h2>try something new</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aliquam error aliquid inventore neque eveniet commodi vel tempora cupiditate illum eligendi deserunt, quidem eum, deleniti nihil nemo exercitationem, labore cumque iure corrupti ad? Dicta nesciunt praesentium a accusamus voluptatibus eaque nam sapiente natus impedit, libero iste asperiores. Veritatis, eligendi repellat.</p>
-                    <a href="#">read more</a>
-                </div>
-            </div>
-        </section>
-<!-- SECTION 2 END -->
-<!-- SECTION 3 PROMOTION SHOWCASE -->
-        <section>
-            <div class="promotionGC wrapper">
-                <h2>win a 1100 gift card</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum veniam tempora corrupti, ullam mollitia excepturi necessitatibus ipsa suscipit! Unde rem perferendis ipsa dolorum, consectetur, dolorem nulla deserunt accusantium reiciendis dignissimos quibusdam ex sit. Porro nulla, ullam quo eius nam obcaecati, quae ad culpa consequatur magni animi rerum voluptatibus natus blanditiis.</p>
-                <a href="#">find out more</a>
-            </div>
-        </section>
-<!-- SECTION 3 END -->
-<!-- SECTION 4 BANNER -->
-        <section class="banner">
-            <div class="imagebreak">
-                <!-- <img src="./assets/banner.jpg" alt="restaurant interior"> -->
-            </div>
-        </section>
-<!-- SECTION 4 END -->
-<!-- SECTION 5 INTERIOR SHOWCASE -->
-        <section>
-            <div class="natureSpace wrapper">
-                <div class="natureImg">
-                    <img src="./assets/square-image.jpg" alt="nature interior">
-                </div>
-                <div class="natureSpaceContent">
-                    <h2>bringing nature in spaces</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni atque iure nobis porro necessitatibus fugiat cumque ipsa sapiente exercitationem, repudiandae deserunt eos cum placeat perspiciatis ab itaque aliquam fuga voluptate, reprehenderit, in autem ad totam quam possimus? Repellendus maiores odit minima sit quae laborum dolor officiis. Hic fugit cum voluptate asperiores beatae odio tempore voluptas perferendis consectetur vel? Corrupti dolorem quia rem exercitationem sint perspiciatis architecto similique. Nam aliquam obcaecati debitis recusandae explicabo error. Magni distinctio inventore fugiat fugit iste minima atque debitis quo assumenda et? Delectus, sit deserunt rerum distinctio laboriosam a quidem aperiam repudiandae, incidunt beatae, ipsum culpa.
-                    </p>
-                    <a href="">find out more</a>
+                <div class="section2Img borderLeft">
+                    <figure class="imageFormat salad">
+                        <img src="./assets/right-image.jpg" alt="Green salad with shrimp and colorful vegetables">
+                    </figure>
                 </div>
             </div>
-        </section>
-<!-- SECTION 5 END -->
-<!-- SECTION 6 GALLERY -->
-        <section class="gallery">
+        </section> 
+        
+        <section class="section3">
+            <div class="section3Content wrapper">
+                <h2 class="yellowText">Win a $100 Gift Cart</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore molestiae commodi voluptates consectetur velit. Eligendi, voluptates velit sapiente laborum modi magni iusto ullam esse provident, totam animi cupiditate distinctio voluptate facilis iste beatae! Libero id repudiandae nesciunt voluptatum, velit et officiis eos optio nisi sequi ratione?</p>
+                <a href="#" class="buttonSecond">Find out More</a>
+            </div>
+        </section> 
+      
+        <section class="section4">
+            <!-- background images -->
+        </section> 
+        
+        <section class="section5">
             <div class="wrapper">
-                <ul>
-                    <li><img src="./assets/gallery-image-1.jpg" alt="copper pipe, with lights and nature interior design"></li>
-                    <li><img src="./assets/gallery-image-2.jpg" alt="take away, red neon sign"></li>
-                    <li><img src="./assets/gallery-image-3.jpg" alt="korean food bibimbap, and side dishes"></li>
-                </ul>
+                <div class="section5ImgContainer">
+                    <img src="./assets/square-image.jpg" alt="Many people are sitting in the restaurant">
+                </div>
+                <div class="section5Content">
+                    <h2 class="yellowText">Bringing Nature in Spaces</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, quaerat consectetur ipsa ab corporis totam tempore, quibusdam dignissimos nesciunt modi voluptate, eos non qui aliquam neque. Voluptates nihil dolores molestias adipisci sunt ea itaque excepturi, fugit recusandae, alias, omnis eum. Repellendus voluptatem labore nihil, dolore optio quis sequi quas accusantium impedit, sit est. Id suscipit voluptas voluptatibus necessitatibus! Reprehenderit molestiae nam, itaque corrupti ut sit provident fugit voluptatum officia.</p>
+                    <a href="#" class="buttonSecond">Find out More</a>
+                </div>
+            </div> 
+        </section> 
+
+        <section class="section6">
+            <div class="galleryImage wrapper">
+                <img src="./assets/gallery-image-1.jpg" alt="Lights with plant">
+                <img src="./assets/gallery-image-2.jpg" alt="Leon sign written Take Away">
+                <img src="./assets/gallery-image-3.jpg" alt="Korean food bibimbap with many side dishs">
             </div>
-        </section>
-<!-- SECTION 6 END -->
-    </main>
+        </section> 
+    </main> <!-- Main ends -->
+    <!-- Footer starts -->
     <footer>
         <p>Copyright © 2022 Juno College</p>
-    </footer>
+    </footer> <!-- Footer ends -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>

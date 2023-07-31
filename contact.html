@@ -1,66 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Head starts -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Restaurant Mall - Contact </title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Contact</title>
     <script src="https://kit.fontawesome.com/8f523b1737.js" crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="./styles/style.css">
+</head> <!-- Head ends -->
+<!-- Body starts -->
 <body>
-    <header>
-        <div class="contactPage">
-            <nav class="upperNav wrapper">
+    <!-- Header starts -->
+    <header class="contact">
+        <div class="menuBar">
+            <div class="buttonContainer">
+                <button class="closeButton"><i class="fa-solid fa-x fa-2x"></i></button>
+            </div>
+            <nav>
                 <ul>
-                    <li><a href="./index.html">home</a></li>
-                    <li><a href="#">about</a></li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
                     <li><a href="./blog.html">Blog</a></li>
-                    <li><a href="./contact.html">contact</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </nav>
-            <h1 class="wrapper">get in touch</h1>
         </div>
-    </header>
-    <main>
-        <section class="getContent">
-            <div class="contactUs">
+        <div class="wrapper">
+            <nav class="navBar">
                 <ul>
-                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>
-                <p>info@email.com</p>
-                <p>123 Queen Street West,Unit 10</p>
+            </nav>
+            <button class="menuBarButton"><i class="fa-solid fa-bars fa-2x"></i></button>
+            <h1>Get in Touch</h1>
+        </div> 
+    </header> <!-- Header ends -->
+    <!-- Main starts -->
+    <main class="contactPage">
+        <div class="wrapper flex">
+            <div class="contactInfo">
+                <div class="iconBox">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <p class="space">info@email.com</p>
+                <p>123 - 456 - 7890</p>
+                <p>123 Queen Street West, Unit 10</p>
                 <p>Toronto, Ontario</p>
                 <p>M5V2D5</p>
             </div>
-            <div class="wrapper">
-                <form class="contactForm">
-                    <div class="nameId">
-                    <div class="label">
-                        <div><label for="Name"></label></div>
-                        <input type="text" name="Name" id="Name" placeholder="Name" required />
-                    </div>
-                    <div class="emailId">
-                        <div><label for="email"></label></div>
-                        <input type="email" name="email" id="email" required placeholder="Email Address" required />
-                    </div>
-                    </div>
-                    <div class="MessageId">
-                    <textarea name="message" id="message" placeholder="message" required=""></textarea>
-                    <button type="submit">submit</button>
-                    </div>
+            <div class="contactForm">
+                <form>
+                    <label for="fullName"></label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Name" required>
+                    <label for="email"></label>
+                    <input type="text" id="email" name="email" placeholder="Email address" required>
+                    <label for="message"></label>
+                    <textarea id="message" name="message" placeholder="Message"></textarea>
+                    <input type="submit" value="Submit" required>
                 </form>
             </div>
-        </section>
-    </main>
+        </div> 
+    </main> <!-- Main ends -->
+    <!-- Footer starts -->
     <footer>
         <p>Copyright © 2022 Juno College</p>
-    </footer>
+    </footer> <!-- Footer ends -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>

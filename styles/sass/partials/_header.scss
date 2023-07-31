@@ -1,0 +1,52 @@
+@use "variables" as *;
+@use "function" as *;
+
+header{
+    @include background(650px);
+    button{
+        display: none;
+    }
+    .menuBar{
+        visibility: hidden;
+        height: 0;
+    }
+    ul{
+        display: flex;
+        padding-top: 50px;
+        li{
+            padding: 20px 30px 10px 15px;
+            a:hover {
+                border-bottom: 3px solid $yellow;
+                padding-bottom: 5px;
+            }
+        }
+    }
+    h1{
+        display: flex;
+        flex-direction: column;
+        .highlight{
+            width: fit-content;
+            padding: 10px 0 0 0;
+            margin-bottom: 20px;
+            background-color: $white;
+            color: $black; 
+        }
+    }
+    .headerImg{
+        @include flexjustifyAlign(flex-end);
+        img{
+            max-width: 700px;
+            margin-top: -240px;
+        }
+    }
+    &.homepage{
+        background-image: url(/assets/home-header.jpg);
+    }
+    &.blog{
+        background-image: url(/assets/blog-header.jpg);
+    }
+    &.contact{
+        background-image: url(/assets/contact-header.jpg);
+        height: 650px;
+    }
+}

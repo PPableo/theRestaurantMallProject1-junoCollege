@@ -1,0 +1,36 @@
+@use "variables" as *;
+
+.wrapper{
+max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+}
+.wrapper2{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+a{
+    &.buttonFirst, &.buttonSecond{
+        padding: 9px 10px 5px 10px;
+    }
+    &.buttonFirst{
+        background-color: $yellow;
+        color: $black;
+        &:hover{
+            color: $white;
+        }
+    }
+    &.buttonSecond{
+        background-color: $black;
+        display: inline-block;
+        &:hover{
+            background-color: $yellow;
+        }
+    }
+}

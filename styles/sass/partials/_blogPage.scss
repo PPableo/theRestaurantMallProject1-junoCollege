@@ -1,0 +1,106 @@
+// @use "./setup";
+// @use "./colors" as *;
+// @use "./header";
+// @use "./general";
+// @use "./footer";
+
+// .blogcontent {
+//     display: flex;
+//     align-content: space-around;
+//     justify-content: space-between;
+//     background: $pine;
+// }
+
+// .userInteraction {
+//     width: 100%;
+//     padding-left: 40%;
+//     h2 {
+//         font-family: "Josefin Sans";
+//         color: $whiteR;
+//         padding-block: 3rem;
+//     }
+//     .firstRow {
+//         display: flex;
+//         gap: 4rem;
+//     }
+//     .secondRow {
+//         display: flex;
+//         gap: 4rem;
+//     }
+// }
+
+// .employementOpp {
+//     width: 60%;
+//     .mainImage {
+//         margin-top: -200px;
+//         img {
+//             width: 100%;
+//             z-index: 100;
+//         }
+//     }
+// }
+
+// .featuredPromotion {
+//     width: 20%;
+//     background: $blackR;
+//     height: fit-content;
+//     text-align: left;
+//     padding-left: 1rem;
+//     margin-left: 15rem;
+//     .promotionContent li {
+//         font-size: 2rem;
+//     }
+//     .promotionImg {
+//         margin-left: -50%;
+        
+//     }
+// }
+
+// .promotionImg {
+//     width: 100%;
+// }
+
+// form {
+//     display: flex;
+//     flex-flow: row wrap;
+//     justify-items: center;
+//     align-items: center;
+//     width: 40vw;
+//     padding: 8% 8% 8% 8%;
+//     background: $pine;
+//     .nameId {
+//       display: flex;
+//       gap:6%;
+//       margin-bottom: 6%;
+//     }
+//     textarea {
+//       resize:none;
+//       width: 50vw;
+//       height:15vw;
+//       border: 2px solid $sunYellow;
+//       background: $pine;
+//       color: $whiteR;
+//     }
+//     input[type=text]{
+//       border: none;
+//       border-bottom: 2px solid $sunYellow;
+//       width: 20vw;
+//       background: $pine;
+//       color: $whiteR;
+//     }
+//     input[type=email]{
+//       border: none;
+//       border-bottom: 2px solid $sunYellow;
+//       width: 20vw;
+//       background: $pine;
+//       color: $whiteR;
+//     }
+//     button {
+//       width:100%;
+//       margin: 5% 0% 4% 0%;
+//       background-color: $sunYellow;
+//       padding: 15px 15px;
+//       font-size: 1.5rem;
+//       border: 0px;
+//     }
+//   }

@@ -1,0 +1,314 @@
+@use "variables" as *;
+@use "function" as *;
+
+
+main{
+    background-color: $primaryColor;
+}
+
+// Home Main starts
+.homeMain .section1{
+    padding: 200px 0 100px 0;
+    ul{
+        @include flexjustifyAlign(space-between);
+        flex-wrap: wrap;
+        li{
+            width: 48%;
+            display: flex;
+            margin-top: 4%;
+            .icon{
+                margin-top: 22px;
+                margin-right: 10px;
+                i{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    background-color: $yellow;
+                    @include flexjustifyAlign(center, center);
+                    color: $black;
+                }
+            }
+        }
+    }
+}
+
+.homeMain .section2{
+    background-color: $secondaryColor;
+    .whole2Section{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    .section2Img{
+        width: 45%;
+    }
+    .section2Content{
+        width: 55%;
+        @include flexjustifyAlign(initial, center);
+    }
+    .borderLeft{
+        img{
+            box-shadow: -15px 15px $yellow;
+        }
+    }
+    .burger img{
+        margin-top: -30px;
+    }
+    .salad img{
+        margin-top: 25px;
+    }
+    figure{
+        margin: 0;
+        height: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+            max-width: 800px;
+            box-shadow: 15px 15px $yellow;
+        }
+    }
+    .contentSize{
+        padding: 30px 10% 0 20%;
+        margin: 0 auto;
+    }
+    a{
+        display: inline-block;
+        margin: 25px 0 30px 0;
+    }
+    .section2ContentRight{
+        text-align: end;
+        .contentSize{
+            padding: 30px 20% 0 10%;
+        }
+    }
+}
+
+.homeMain .section3{
+    padding: 5% 10%;
+    background-color: $primaryColor;
+    .section3Content{
+        padding: 50px 0 30px 0;
+        text-align: center;
+        p{
+            text-align: left;
+        }
+        a{
+            margin: 40px 0 20px 0;
+        }
+    }
+}
+
+.homeMain .section4{
+    background-image: url(/assets/banner.jpg);
+    @include background(700px);
+}
+
+.homeMain .section5{
+    .wrapper{
+        @include flexjustifyAlign(initial, center);
+        padding: 8% 0;
+    }
+    background-color: $primaryColor;
+    .section5ImgContainer{
+        width: 30%;
+        img{
+            max-width: 100%;
+            box-shadow: -15px 15px $yellow;
+        }
+    }
+    .section5Content{
+        width: 70%;
+        padding-left: 10%;
+        h2{
+            text-align: left;
+        }
+        a{
+            margin: 20px 0;
+        }
+    }
+}
+
+.homeMain .section6{
+    background-color: $secondaryColor;
+    .galleryImage{
+        @include flexjustifyAlign(space-between);
+        padding: 7% 0;
+        img{
+            width: calc(33% - 10px);
+        }
+    }
+}
+// Home Main ends
+
+// Blog Main starts
+.blogMain{
+    display: flex;
+}
+
+.blogMain .section1{
+    width: 30%;
+    .leftBar{
+        background-color: $secondaryColor;
+        margin-top: 100px;
+        margin-left: 10%;
+        padding: 0 2%;
+        height: fit-content;
+        max-width: 500px;
+        h4{
+            color: $yellow;
+            padding-top: 20px;
+        }
+        .leftBarContent{
+            .recentPost{
+                margin-top: 30px;
+            }
+            ul{
+                list-style: disc;
+                padding-left: 7%;
+                padding-bottom: 10%;
+                li{
+                    padding-top: 3%;
+                }
+            }
+        }
+    }
+    .leftBarImg{
+        margin-left: -4vw;
+        img{
+            width: 95%;
+            max-width: 600px;
+            margin-top: -20px;
+        }
+    }
+}
+
+.blogMain .section2{
+    .section2part1, .section2part2{
+        width: auto;
+    }
+    width: 70%;
+    .section2part1{
+        padding-left: 10%;
+        img{
+            margin-top: -100px;
+            max-width: 100%;
+            box-shadow: -15px 15px $yellow;
+        }
+        h2{
+            color: $yellow;
+        }
+        .section2Content1{
+            padding: 5% 10%;
+            margin-left: -15px;
+            border-left: 5px solid $yellow;
+            border-bottom: 5px solid $yellow;
+            p{
+                margin-bottom: 30px;
+            }
+            h5{
+                padding-bottom: 30px;
+            }
+        }
+    }
+    .section2part2{
+        padding: 5% 10% 5% 18%;
+        figure{
+            margin: 0 5% 0 0;
+        }
+        h5{
+            color: $yellow;
+            padding: 0 0 15px 0;
+        }
+        .part2FirstContainer, .part2SecondContainer{
+            display: flex;
+            padding: 30px 0 30px 0;
+        }
+    }
+}
+// Blog Main ends
+
+// Blog Main & Contact Main Form combined starts
+.section2ContactForm, .contactPage .contactForm{
+    form{
+        @include flexjustifyAlign(space-between);
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    
+    input[type=text], textarea{
+        background-color: $primaryColor;
+        border: none;
+        color: $white;
+        outline: none;
+    }
+    input[type=text]{
+        border-bottom: 2px solid $yellow;
+        width: 48%;
+        padding: 0 0 15px 15px;
+    }
+    #fullName{
+        margin-right: 4%;
+    }
+    textarea{
+        margin-top: 20px;
+        width: 100%;
+        border: 2px solid $yellow;
+        resize: none;
+        padding: 15px 0 0 10px;
+        height: 200px;
+    }
+    input[type=submit]{
+        margin-top: 20px;
+        border-radius: 0;
+        border: none;
+        background-color: $yellow;
+        color: $black;
+        width: 100%;
+        text-transform: uppercase;
+        cursor: pointer;
+        &:hover{
+            color: $white;
+        }
+    }
+}
+// Blog Main & Contact Main Form combined ends
+
+// Contact page starts
+.contact h1{
+    margin-top: 3rem;
+}
+.contactPage{
+    padding-bottom: 90px;
+    .contactInfo{
+        width: 30%;
+        @include flexjustifyAlign(center);
+        flex-direction: column;
+        padding-top: 7%;
+        .iconBox{
+            display: flex;
+            a{
+                margin-right: 30px;
+                color: $yellow;
+            }
+        }
+        .space{
+            padding: 30px 0;
+        }
+    }
+    .contactForm{
+        width: 70%;
+        margin-left: 8%;
+        background-color: $secondaryColor;
+        box-shadow: 15px 15px $yellow;
+        margin-top: -10%;
+        form{
+            padding: 5% 5% 8% 5%;
+            justify-content: center;
+        }
+        input[type=text], textarea{
+            background-color: $secondaryColor;
+        }
+    }
+}
+// Contact page ends

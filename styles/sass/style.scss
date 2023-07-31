@@ -1,8 +1,15 @@
-@use "./setup";
-@use "./colors" as *;
-@use "./header";
-@use "./footer";
-@use "./homePage";
-@use "./blogPage";
-@use "./contactPage";
-@use "./mediaQueries";
+@use "partials/setup";
+@use "partials/typography";
+@use "partials/base-styles";
+@use "partials/variables" as *;
+@use "partials/function";
+@use "partials/header";
+@use "partials/main";
+@use "partials/media";
+
+footer{
+    p{
+        text-align: center;
+        padding: 10px 0;
+    }
+}

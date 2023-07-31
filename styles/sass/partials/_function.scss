@@ -1,0 +1,56 @@
+@use "variables" as *;
+@mixin background($sizeValue){
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: $sizeValue;
+}
+
+@mixin flexjustifyAlign($type: initial, $value: initial){
+    display: flex;
+    justify-content: $type;
+    align-items: $value;
+}
+
+@mixin buttonStyle(){
+    color: $yellow;
+    display: inline-block;
+    justify-content: flex-end;
+    background-color:transparent;
+    border: none;
+    i{
+        position: absolute;
+        right: 5%;
+        top: 5%;
+    }
+}
+
+@mixin menuBar(){
+    .menuBar{
+        width: 100%;
+        max-width: 600px;
+        visibility: hidden;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.92);
+        position: absolute;
+        opacity: 0;
+        transition: visibility 0.5s, opacity 0.5s linear;
+        .closeButton{
+            cursor: pointer;
+        }
+        nav{
+            width: 100%;
+        }
+        ul{
+            flex-direction: column;
+            align-items: center;
+            padding-top: 130px;
+            li{
+                padding-bottom: 3%;
+            }
+            a{
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
