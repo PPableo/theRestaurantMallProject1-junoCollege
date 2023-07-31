@@ -1,0 +1,98 @@
+@use "./setup";
+@use "./colors" as *;
+@use "./header";
+@use "./general";
+@use "./footer";
+
+.reviewSection {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.reviewContainer {
+    width: 500px;
+    margin: 40px auto;
+    font-size: 15px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    padding-left: 38px;
+    justify-content: center;
+    background-color: $almostBlack;
+    box-shadow: 2.1rem 2.1rem #FFD300;
+}
+
+.imageContainer.star {
+    border-radius: 50%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: $sunYellow;
+    margin: 10px 0;
+}
+ 
+.ratingCircle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $sunYellow;
+    color: $whiteR;
+    margin-right: 25px;
+}
+
+.ratingCircle:hover {
+    background-color: orange;
+}
+
+.submit {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: $pine;
+    width: 95%;
+    height: 47px;
+    color: $whiteR;
+    border: none;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.submit:hover {
+    background-color: orange;
+    color: $whiteR;
+}
+
+.hidden {
+    display: none;
+  }
+ 
+.reviewFeedback {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.submittedView P {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: orange;
+}
+
+.submittedView h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.rating {
+    padding-left: 5px;
+    padding-right: 5px;
+}

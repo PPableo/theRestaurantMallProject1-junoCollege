@@ -1,163 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Head starts -->
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Head starts -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
-    <script src="https://kit.fontawesome.com/8f523b1737.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./styles/style.css">
-</head> <!-- Head ends -->
-<!-- Body starts -->
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Josefin+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8f523b1737.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <!-- Head ends -->
+  <!-- Body starts -->
+  <body>
     <!-- Header starts -->
     <header class="homepage">
-        <div class="menuBar">
-            <div class="buttonContainer">
-                <button class="closeButton"><i class="fa-solid fa-x fa-2x"></i></button>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="./blog.html">Blog</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </nav>
+      <div class="menuBar">
+        <div class="buttonContainer">
+          <button class="closeButton">
+            <i class="fa-solid fa-x fa-2x"></i>
+          </button>
         </div>
-        <div class="wrapper">
-            <nav class="navBar">
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="./blog.html">Blog</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <button class="menuBarButton"><i class="fa-solid fa-bars fa-2x"></i></button>
-            <h1 class="removeSpace">The <span class="highlight">Restaurant</span> Mall</h1>
-        </div> 
-        <div class="headerImg">
-            <img src="./assets/home-box-header.png" alt="Fried squid ring with vegetables is on the table in the restaurant">
-        </div>
-    </header> <!-- Header ends -->
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="wrapper">
+        <nav class="navBar">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="menuBarButton">
+          <i class="fa-solid fa-bars fa-2x"></i>
+        </button>
+        <h1 class="removeSpace">
+          The <span class="highlight">Restaurant</span> Mall
+        </h1>
+      </div>
+      <div class="headerImg">
+        <img
+          src="./assets/home-box-header.png"
+          alt="Fried squid ring with vegetables is on the table in the restaurant"
+        />
+      </div>
+    </header>
+    <!-- Header ends -->
     <!-- Main starts -->
     <main class="homeMain">
-
-        <section class="section1">
-            <ul class="wrapper">
-                <li>
-                    <div class="icon">
-                        <i class="fa-sharp fa-solid fa-location-dot"></i>
-                    </div>
-                    <div class="section1Content">
-                        <h2>Location</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, minima pariatur? Atque exercitationem adipisci doloremque.</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="icon">
-                        <i class="fa-solid fa-users"></i>
-                    </div>
-                    <div class="section1Content">
-                        <h2>Community</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, minima pariatur? Atque exercitationem adipisci doloremque.</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="icon">
-                        <i class="fa-solid fa-file"></i>
-                    </div>
-                    <div class="section1Content">
-                        <h2>Blog</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, minima pariatur? Atque exercitationem adipisci doloremque.</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="icon">
-                        <i class="fa-solid fa-phone-flip"></i>
-                    </div>
-                    <div class="section1Content">
-                        <h2>Get in Touch</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, minima pariatur? Atque exercitationem adipisci doloremque.</p>
-                    </div>
-                </li>
-            </ul> 
-        </section>
-
-        <section class="section2">
-            <div class="whole2Section">
-                <div class="section2Img">
-                    <figure class="imageFormat burger">
-                        <img src="./assets/left-image.jpg" alt="Hamburger with fries">
-                    </figure>
-                </div>
-                <div class="section2Content">
-                    <div class="contentSize">
-                        <h2>Best Burgers</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum et consequatur fuga, reprehenderit voluptas non delectus saepe libero nemo quis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        </p>
-                        <a href="#" class="buttonFirst">Read More</a>
-                    </div>
-                </div>
-                <div class="section2Content section2ContentRight">
-                    <div class="contentSize">
-                        <h2>Try Something New</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum et consequatur fuga, reprehenderit voluptas non delectus saepe libero nemo quis. Lorem ipsum dolor sit amet consectetur. 
-                        </p>
-                        <a href="#" class="buttonFirst">Read More</a>
-                    </div>
-                </div>
-                <div class="section2Img borderLeft">
-                    <figure class="imageFormat salad">
-                        <img src="./assets/right-image.jpg" alt="Green salad with shrimp and colorful vegetables">
-                    </figure>
-                </div>
+      <section class="section1">
+        <ul class="wrapper">
+          <li>
+            <div class="icon">
+              <i class="fa-sharp fa-solid fa-location-dot"></i>
             </div>
-        </section> 
-        
-        <section class="section3">
-            <div class="section3Content wrapper">
-                <h2 class="yellowText">Win a $100 Gift Cart</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore molestiae commodi voluptates consectetur velit. Eligendi, voluptates velit sapiente laborum modi magni iusto ullam esse provident, totam animi cupiditate distinctio voluptate facilis iste beatae! Libero id repudiandae nesciunt voluptatum, velit et officiis eos optio nisi sequi ratione?</p>
-                <a href="#" class="buttonSecond">Find out More</a>
+            <div class="section1Content">
+              <h2>Location</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Inventore, minima pariatur? Atque exercitationem adipisci
+                doloremque.
+              </p>
             </div>
-        </section> 
-      
-        <section class="section4">
-            <!-- background images -->
-        </section> 
-        
-        <section class="section5">
-            <div class="wrapper">
-                <div class="section5ImgContainer">
-                    <img src="./assets/square-image.jpg" alt="Many people are sitting in the restaurant">
-                </div>
-                <div class="section5Content">
-                    <h2 class="yellowText">Bringing Nature in Spaces</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, quaerat consectetur ipsa ab corporis totam tempore, quibusdam dignissimos nesciunt modi voluptate, eos non qui aliquam neque. Voluptates nihil dolores molestias adipisci sunt ea itaque excepturi, fugit recusandae, alias, omnis eum. Repellendus voluptatem labore nihil, dolore optio quis sequi quas accusantium impedit, sit est. Id suscipit voluptas voluptatibus necessitatibus! Reprehenderit molestiae nam, itaque corrupti ut sit provident fugit voluptatum officia.</p>
-                    <a href="#" class="buttonSecond">Find out More</a>
-                </div>
-            </div> 
-        </section> 
+          </li>
+          <li>
+            <div class="icon">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="section1Content">
+              <h2>Community</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Inventore, minima pariatur? Atque exercitationem adipisci
+                doloremque.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="icon">
+              <i class="fa-solid fa-file"></i>
+            </div>
+            <div class="section1Content">
+              <h2>Blog</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Inventore, minima pariatur? Atque exercitationem adipisci
+                doloremque.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="icon">
+              <i class="fa-solid fa-phone-flip"></i>
+            </div>
+            <div class="section1Content">
+              <h2>Get in Touch</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Inventore, minima pariatur? Atque exercitationem adipisci
+                doloremque.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
 
-        <section class="section6">
-            <div class="galleryImage wrapper">
-                <img src="./assets/gallery-image-1.jpg" alt="Lights with plant">
-                <img src="./assets/gallery-image-2.jpg" alt="Leon sign written Take Away">
-                <img src="./assets/gallery-image-3.jpg" alt="Korean food bibimbap with many side dishs">
+      <section class="section2">
+        <div class="whole2Section">
+          <div class="section2Img">
+            <figure class="imageFormat burger">
+              <img src="./assets/left-image.jpg" alt="Hamburger with fries" />
+            </figure>
+          </div>
+          <div class="section2Content">
+            <div id="about" class="contentSize">
+              <h2>Best Burgers</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
+                et consequatur fuga, reprehenderit voluptas non delectus saepe
+                libero nemo quis. Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit.
+              </p>
+              <a href="#" class="buttonFirst">Read More</a>
             </div>
-        </section> 
-    </main> <!-- Main ends -->
+          </div>
+          <div class="section2Content section2ContentRight">
+            <div class="contentSize">
+              <h2>Try Something New</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
+                et consequatur fuga, reprehenderit voluptas non delectus saepe
+                libero nemo quis. Lorem ipsum dolor sit amet consectetur.
+              </p>
+              <a href="#" class="buttonFirst">Read More</a>
+            </div>
+          </div>
+          <div class="section2Img borderLeft">
+            <figure class="imageFormat salad">
+              <img
+                src="./assets/right-image.jpg"
+                alt="Green salad with shrimp and colorful vegetables"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section3">
+        <div class="section3Content wrapper">
+          <h2 class="yellowText">Win a $100 Gift Cart</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            molestiae commodi voluptates consectetur velit. Eligendi, voluptates
+            velit sapiente laborum modi magni iusto ullam esse provident, totam
+            animi cupiditate distinctio voluptate facilis iste beatae! Libero id
+            repudiandae nesciunt voluptatum, velit et officiis eos optio nisi
+            sequi ratione?
+          </p>
+          <a href="#" class="buttonSecond">Find out More</a>
+        </div>
+      </section>
+
+      <section class="section4">
+        <!-- background images -->
+      </section>
+
+      <section class="section5">
+        <div class="wrapper">
+          <div class="section5ImgContainer">
+            <img
+              src="./assets/square-image.jpg"
+              alt="Many people are sitting in the restaurant"
+            />
+          </div>
+          <div class="section5Content">
+            <h2 class="yellowText">Bringing Nature in Spaces</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus, quaerat consectetur ipsa ab corporis totam tempore,
+              quibusdam dignissimos nesciunt modi voluptate, eos non qui aliquam
+              neque. Voluptates nihil dolores molestias adipisci sunt ea itaque
+              excepturi, fugit recusandae, alias, omnis eum. Repellendus
+              voluptatem labore nihil, dolore optio quis sequi quas accusantium
+              impedit, sit est. Id suscipit voluptas voluptatibus
+              necessitatibus! Reprehenderit molestiae nam, itaque corrupti ut
+              sit provident fugit voluptatum officia.
+            </p>
+            <a href="#" class="buttonSecond">Find out More</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section6">
+        <div class="galleryImage wrapper">
+          <img src="./assets/gallery-image-1.jpg" alt="Lights with plant" />
+          <img
+            src="./assets/gallery-image-2.jpg"
+            alt="Leon sign written Take Away"
+          />
+          <img
+            src="./assets/gallery-image-3.jpg"
+            alt="Korean food bibimbap with many side dishs"
+          />
+        </div>
+      </section>
+    </main>
+    <!-- Main ends -->
     <!-- Footer starts -->
     <footer>
-        <p>Copyright © 2022 Juno College</p>
-    </footer> <!-- Footer ends -->
+      <p>Copyright © 2022 Juno College</p>
+    </footer>
+    <!-- Footer ends -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
